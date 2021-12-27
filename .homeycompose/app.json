@@ -1,0 +1,28 @@
+{
+  "id": "nl.rkr360",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "zigbee shutter"
+  },
+  "description": {
+    "en": "nl.rkr360"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Roland Kruijtzer",
+    "email": "rkr.post@gmail.com"
+  }
+}
