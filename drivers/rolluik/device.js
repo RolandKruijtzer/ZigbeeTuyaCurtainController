@@ -38,12 +38,12 @@ class MyDevice extends ZigBeeDevice {
     if (this.hasCapability('button.start_calibration')) {
         this.registerCapabilityListener('button.start_calibration', async () => {
             await this.zclNode.endpoints[1].clusters.windowCovering.writeAttributes({calibration: 'Start'});
-            //this.log("Calibration start, status: "); 
+            //this.log("Calibration start"); 
             return;
         });
         this.registerCapabilityListener('button.stop_calibration', async () => {
             await this.zclNode.endpoints[1].clusters.windowCovering.writeAttributes({calibration: 'End'});
-            //this.log("Calibration stopped, status: "); 
+            //this.log("Calibration stopped"); 
             return;
         });
     }
